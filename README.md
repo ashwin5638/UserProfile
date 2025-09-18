@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+ 🧑‍💻 React User Profiles App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern **single-page React application** that fetches user data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users) and displays it as **interactive profile cards**. Built with **React, Axios, Ant Design, and React Icons**, this project demonstrates API integration, state management, responsive UI, and dynamic avatar generation.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+* Fetch user data from a public REST API using **Axios**
+* Display user information in styled **profile cards**
+* **Dynamic avatars** generated from usernames (DiceBear API)
+* **Edit user details** in a modal form (name, email, phone, website)
+* **Delete option** to remove profiles from the UI
+* **Loading animation** while fetching data
+* **Responsive layout** using Ant Design Grid & components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+* **React.js** – Frontend framework
+* **Axios** – Data fetching from API
+* **Ant Design (antd)** – UI components & layout
+* **React Icons** – Icons for delete/edit actions
+* **CSS / AntD Styles** – Custom styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> *Add some screenshots or a demo GIF here*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚡ Installation & Setup
 
-### `npm run eject`
+```bash
+# Clone the repo
+git clone https://github.com/your-username/react-user-profiles.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Navigate to project folder
+cd react-user-profiles
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Start the development server
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+App will be available at **[http://localhost:3000](http://localhost:3000)**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📚 Learning Outcomes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Using **Axios** to fetch API data in React
+* Managing state with **useState** & **useEffect**
+* Building reusable UI components with **Ant Design**
+* Handling **dynamic data rendering** (props & state updates)
+* Implementing **loading states** and interactive features (edit/delete)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Would you like me to also create a **CHANGELOG.md** file (with versioning like `v1.0.0 – Basic profile cards`, `v1.1.0 – Edit feature added`) so your repo looks extra professional?
