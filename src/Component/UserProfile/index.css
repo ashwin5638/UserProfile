@@ -1,0 +1,93 @@
+.card {
+  width: 400px;
+  height: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f6f3f8, #c1ddf1);  
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+@media (max-width: 400px) {
+  .card {
+    width: 390px;
+    height: auto;
+    margin: 0px;
+    padding: 15px;
+    margin-right: 50px;
+  }
+  .card-img{
+    height: 200px;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+    
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-img{
+    height: 240px;
+    padding-left: 60px;
+}
+
+.row-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    background: transparent;
+    border: 0px;
+}
+
+.delete-img{
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 80px
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 25px;
+  color: #333;
+}
+
+.username {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+}
+
+.card p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.4;
+}
+
+.card a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.user-list-item{
+    display: flex;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.card-title{
+    font-size: 30px;
+}
