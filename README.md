@@ -26,11 +26,7 @@ A modern **single-page React application** that fetches user data from the [JSON
 
 ---
 
-## 📸 Screenshots
 
-> *Add some screenshots or a demo GIF here*
-
----
 
 ## ⚡ Installation & Setup
 
