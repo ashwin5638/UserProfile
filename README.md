@@ -58,4 +58,3 @@ App will be available at **[http://localhost:3000](http://localhost:3000)**
 
 
 
-Would you like me to also create a **CHANGELOG.md** file (with versioning like `v1.0.0 – Basic profile cards`, `v1.1.0 – Edit feature added`) so your repo looks extra professional?
